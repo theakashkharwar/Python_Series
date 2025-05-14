@@ -7,8 +7,6 @@ import calendar
 Year = int(input("Tell me which year u want to see:\n "))
 Month = int(input(f"Tell which month of the year {Year} u want to see:\n "))
 
-# Store the Values in a Variable
-
 Cal = calendar.month(Year, Month)
 
 print(Cal)
