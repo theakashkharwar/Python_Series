@@ -1,0 +1,20 @@
+# Task: To print all the prime no. in the interval given by user
+
+# Initialize the Upper and loware limit
+Lower = int(input("Enter the Lower limit: "))
+Upper = int(input("Enter the Upper limit: "))
+
+# Print the Task
+print(f"Print the Prime no. between {Lower} and {Upper}")
+
+# Create a for loop for the num to iterate
+for num in range(Lower, Upper + 1):
+    if num > 1: # Checks if the no. is greater than one or not.
+
+# Checks wheater the no. is prime or not
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            print(num)
+
